@@ -1,0 +1,340 @@
+html,body{
+  background-color: #FFF3E1;
+  padding: 0;
+  margin:0;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0 !important;
+  height: 0;
+}
+.container{
+  position: relative;
+  margin: 2% auto 0 auto;
+  width: 800px;  
+}
+.pr{
+  position: relative;
+}
+.pa{
+  position: absolute;
+}
+.ftl{
+  float: left;
+}
+.pad-lr-10{
+  padding: 0 10px;
+}
+.mackbook{
+  left: 285px;
+  top: 75px;
+}
+.mackbook .screen{
+  height: 150px;
+  width: 250px;
+  background-color: #3C5996;
+  border: 10px solid #151822;
+  border-radius: 5px;
+}
+.mackbook .screen .user_pic{
+  margin: 20px auto 15px auto;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background-color: #B1BDD5;
+}
+.mackbook .screen .password{
+  background-color: #fff;
+  height: 15px;
+  width: 100px;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+.mackbook .screen .icons{
+  margin: 27px auto 0px auto;
+  width: 75px;
+}
+.mackbook .screen .icons .icon{
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #344C7F;
+  float: left;
+  margin: 0 5px;
+}
+.mackbook .base{
+  height: 185px;
+  width: 270px;
+  background-color: #E8E8EB;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom: 8px solid #E4D9C9;
+}
+.mackbook .base .connector{
+  background-color: #151822;
+  height: 8px;
+  width: 170px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin: 0 auto;
+}
+.mackbook .base .keypad{
+ background-color: #C2CBDE;
+  height: 85px;
+  width: 250px;
+  margin: 10px auto;
+  border-radius: 5px;
+  padding: 3px;
+}
+.mackbook .base .keypad .key{
+  height: 17px;
+  border-radius: 4px;
+  background-color: #151822;
+  margin: 2px;
+  /*box-shadow: 0px 2px 1px #6F7584;*/
+}
+.mackbook .base .keypad .key1{
+  width: 18px;
+}
+.mackbook .base .keypad .key2{
+  width: 32px;
+}
+.mackbook .base .keypad .key3{
+  width: 90px;
+}
+.mackbook .base .touchpad{
+  background-color: #C2CBDE;
+  height: 59px;
+  width: 100px;
+  border-radius: 5px;
+  margin: -5px auto 5px auto;
+}
+.mackbook .base .shadow{
+  width: 100%;
+  height: 6px;
+  background-color: #C2CBDE;
+  bottom: 0px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+div{
+  -webkit-transition: ease 0.2s;
+    -moz-transition: ease 0.2s;
+    -ie-transition: ease 0.2s;
+    -o-transition: ease 0.2s;
+      transition: ease 0.2s;
+}
+.hover:hover{
+  /*margin-top: -7px;*/
+  transform: scale(1.1, 1.1)
+}
+
+.mouse{
+  height: 96px;
+  width: 60px;
+  background-color: #fff;
+  left: 580px;
+  top: 375px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom: 5px solid #E4D9C9;
+}
+.mouse .scroller{
+  background-color: #C2CBDE;
+  left: 28px;
+  width: 3px;
+  border-radius: 10px;
+  height: 15px;
+  top: 16px;
+}
+
+.notes{
+  height: 130px;
+  width: 120px;
+  background-color: #EFD171;
+  border-bottom: 5px solid #E4D9C9;
+  left: 650px;
+  top: 110px;
+} 
+.notes .note{
+  height: 95%;
+  width: 100%;
+  background-color: #FFE882;
+}
+.notes .note:after{
+  content: '';
+  border-left: 10px solid #FFF1B4;
+  border-top: 10px solid #FFF1B4;
+  border-right: 10px solid #EFD171;
+  border-bottom: 10px solid #EFD171;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+
+.camera{
+	top: 70px;
+	left: 0px;
+}
+
+
+.diary{
+  height: 190px;
+  width: 120px;
+  top: 300px;
+  left: 30px;
+  border-bottom: 5px solid #E4D9C9;
+}
+.diary .main{
+  border: 5px solid #ff4aa5;
+  border-top: none;
+  background-color: #FFF;
+  height: 100%; 
+  width: 100%;
+  border-bottom-right-radius: 15px;
+}
+.diary .main .cover{
+  background-color: #ff4aa5;
+  width: 115%;
+  height: 95%;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.diary .main .cover .less{
+  background-color: #3C5996;
+  width: 7px;
+  height: 95%;
+  right: 10px;
+}
+
+
+.pencil{
+  background-color: #FFE882;
+  width: 15px;
+  height: 120px;
+  left: 230px;
+  top: 200px;
+}
+.pencil .pencil-nip{
+  border-bottom: 22px solid #F3C6A9;
+  border-left: 8px solid transparent;
+  border-right: 7px solid transparent;
+  width: 0;
+  height: 0;
+  margin-top: -22px;
+} 
+.pencil .pencil-nip .pencil-tip{
+  border-bottom: 8px solid #151822;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  height: 0px;
+  width: 0px;
+  top: -22px;
+  position: absolute;
+  left: 5px;
+}
+.pencil .pencil-bottom{
+  bottom: 0px;
+  background-color: #FF859F;
+  width: 100%;
+  height: 15px;
+  border-bottom: 5px solid #E4D9C9;
+}
+.key{
+  top: 380px;
+  left: 200px;
+}
+
+.lock{
+  top: 380px;
+  left: 200px;
+  border-bottom: 5px solid #E4D9C9;
+  border-radius: 32px;
+}
+.lock .locker{
+  background-color: #272A34;
+  border: 5px solid #F8F8F9;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+.lock .locker .key_hole{
+  background-color: #BBBCBF;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  top: 20px;
+  left: 20px;
+}
+.lock .locker .key_hole:after{
+  position: absolute;
+  content: '';
+  background-color: #BBBCBF;
+  height: 10px;
+  width: 3px;
+  border-radius: 5px;
+  top: 7px;
+  left: 3px;
+}
+.lock .handle{
+  height: 30px;
+  width: 30px;
+  border: 5px solid #9999a6;
+  border-bottom: 0;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-left: 10px;
+  margin-bottom: -7px;
+}
+
+.phone{
+  background-color: #20232C;
+  height: 180px;
+  width: 90px;
+  border-radius: 10px;
+  border-bottom: 5px solid #A6856E;
+  left: 680px;
+  top: 300px;
+}
+.phone .speaker{
+  background-color: #EDEDF0;
+  height: 3px;
+  width: 15px;
+  border-radius: 5px;
+  margin: 8px auto;
+}
+.phone .screen{
+  background-color: #262E41;
+  width: 80%;
+  margin: 0 auto;
+  height: 135px;
+}
+.phone .screen .screen_data{
+  background-color: #3C5997;
+  width: 100%;
+  height: 7px;
+}
+.phone .button{
+  height: 15px;
+  width: 15px;
+  background-color: #EDEDF0;
+  border-radius: 50%;
+  margin: 6px auto;
+}
+.phone .volume_rockers{
+  background-color: #20232C;
+  height: 24px;
+  width: 5px;
+  top: 25px;
+  left: -2px;
+  border-radius: 10px;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<!-- 동일한 이름 작성 -->
+	<Resource
+		name="jdbc/mysqlDB"
+		auth="Container"
+		type="javax.sql.DataSource"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/tinyhome"
+		username="root"
+		password="1234"
+	/>	
+</Context>

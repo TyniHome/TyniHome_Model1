@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+
+
+
+
+#join>h5{margin: 0;}
+
+#rrd, #rrd2{width: 192px;}
+#year, #month, #date{width: 130px;}
+#join_button, #login_button {text-align: center; margin: 10px auto 0px auto;}
+#postcode, #id, #email, #nickname {width: 260px;}
+
+
+.button {height: 40px; color:#fff3e1; background-color: #66615a; width: 130px;
+text-align: center; margin: 10px auto 0px auto;}
+
+.inputbox {width: 400px; height: 40px;}
+
+table{margin-left: auto; margin-right: auto;}

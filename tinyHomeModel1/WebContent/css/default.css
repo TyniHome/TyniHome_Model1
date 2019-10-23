@@ -1,0 +1,178 @@
+@CHARSET "UTF-8";
+html, body{padding: 0; margin:0; height:100%; overflow:hidden;}
+body {
+padding: 0; margin:0;
+background-color:#373331;
+background-image: linear-gradient(#fff3e1 2px, transparent 2px),
+linear-gradient(90deg, #fff3e1 2px, transparent 2px),
+linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
+/* margin:auto auto auto auto; */
+padding-top : calc (700/700 * 100 %);
+height:100%; overflow:hidden;
+color: #373331;
+}
+::-webkit-scrollbar{width: 1px;}
+::-webkit-scrollbar-track{background-color: transparent;}
+::-webkit-scrollbar-thumb{background-color: #CCC2B5;}
+::-webkit-scrollbar-thumb:HOVER{background-color: #9C948A;}
+::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar1-button:end:increment{width:1px; background:#CCC2B5;}
+
+div{
+-ms-user-select:none;
+-moz-user-select:-moz-none;
+-khtml-user-select:none;
+-webkit-user-select:none;
+user-select:none;
+}
+/*드래그 금지*/
+.box_round {
+	text-align: center;
+	height: 95%;
+	width: 95%;
+	margin:1.5% auto 1.5% 1.5%;
+	padding-left: 1.2%;
+	padding-right: 0.5%;
+	background-color:#fff3e1;
+     -moz-border-radius: 12px; /* FF1+ */
+  -webkit-border-radius: 12px; /* Saf3-4 */
+          border-radius: 12px; /* Opera 10.5, IE 9, Saf5, Chrome */
+}
+
+#ckRound{
+	text-align: left;
+/* 	position:fixed; */
+	height: 90%;
+	width: 90%;
+	margin:6px auto auto 14px ;
+	padding-top: 0.5% auto;
+	padding-left: 1.2%;
+	padding-right: 0.5%;
+	background-color:#fff3e1;
+	     -moz-border-radius: 12px; /* FF1+ */
+  -webkit-border-radius: 12px; /* Saf3-4 */
+          border-radius: 12px; /* Opera 10.5, IE 9, Saf5, Chrome */
+}
+
+
+.scroll{
+text-align:center;
+background-color: transparent;
+position:fixed;
+margin: 30px 0 0 0%;
+overflow-x:hidden; overflow-y:auto;
+width:95%;  height:73%;
+padding: 0;}
+
+
+#summernote{font-size: 9px}
+hr{color: #E4D9C9; text-align: center;}
+
+fieldset{border-color:transparent; width: 80%; margin: 5px auto;}
+legend {font-size: 20px; font-weight: bold; text-align: center; border-color:transparent; text-transform: uppercase;}
+form{margin: 20px 250px auto 250px;}
+
+table{margin-left: auto; margin-right: auto;} /*테이블 가운데 정렬*/
+
+.tdhead{border-right: 1px solid #E4D9C9; text-align: right;}
+textarea .summernote{board:1px solid red; text-align: left; width: 100%}
+/* .submitfield>table{width: 130px; margin: 0px auto; text-align: center;} */
+
+tr, td{padding: 5px; border-bottom: 1px solid #E4D9C9; }
+th{ text-transform: uppercase;}
+input{border: none; vertical-align: middle;}
+.inputbox {width:100%; height: 50px;}
+input.button {height: 50px; color:#fff3e1; background-color: #66615a; width: 100%;
+text-align: center; margin: 0px; float: right;}
+input.button:HOVER{background-color: #45423E;}
+
+input#subbutton{float: left; width: 50%;}
+input#wbutton{float: left; width: 33%;}
+input#conbutton{float: left; width: 25%;}
+
+
+
+
+#login{float: right;margin: 20px 50px 0 0;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 12px;word-spacing: 5px;}
+/*정렬 오른쪽 밖여백 20 64 0 0  
+글자체 Arial,Helvetica,sans-serif 크기 12px 
+단어간격 5px*/
+#login a{text-decoration: none; color: #373331}
+a{text-decoration: none; color: #373331}
+/* 하이퍼링크 밑줄 없음 글자색 #373331*/
+#login a:hover{border:red; color: #9b9998;}
+a:hover{border:red; color: #9b9998;}
+/* 하이퍼링크 hover 글자색 #F90*/
+.clear{clear: both;}/*영역구분*/
+/*조회수 들어갈 부분*/
+.clear{clear: both;}/*영역구분*/
+#logo{float: left; width: 250px; margin: 0px 0px 0px 25px;
+height: 0px;}
+#logo img{height:70px; margin: 0 0 0 0; float: left;}
+.clear{clear: both;}/*영역구분*/
+header{height: 100px;margin: 0px;padding: 0px; width: 100%;}
+/*높이 151px 밖여백 0 안여백 0*/
+nav#top_menu{width: 580px; height:30px; margin: 10px 0px 0px 50px;
+float: right; padding: 0;}
+/*너비 600px 밖여백 50px 20px 0 0 정렬 오른쪽*/
+nav#top_menu ul{list-style:none;
+font-family: verdana,Geneba,sans-serif;
+width:500px;
+float:right;
+font-size: 13px;font-weight: 100;color: #373331; padding: 0; margin: 10px 0 0 0;}
+/*스타일없음 글자체 verdana,Geneba,sans-serif 
+글자크기 13px 글자굵기 100 글자색 #373331*/
+nav#top_menu li{float:left; margin: 0 5px; padding: 0px 0px;}
+/*정렬 왼쪽 밖여잭 0 5px*/
+nav#top_menu a{display: block; height: 20px;
+padding: 3px; text-decoration: none;color: #373331}
+/*block 높이 20px 안여백 10px 밑줄 없음 글자색 #373331*/
+nav#top_menu a:hover{color: #9b9998; text-decoration:underline;}
+/*배경이미지 blue.gif 배경반복 x 배경위치 아래*/
+
+
+/*파일 업로드 버튼*/
+
+
+/*footer부분*/
+/*글자체 seo*/
+@font-face{font-family: "seo";
+src: url("../images/segoeui.eot");
+src: local(""),
+     url("../images/segoeui.woff")format("woff"),
+     url("../images/segoeui.ttf")format("truetype");}
+footer{
+background-color:transparent;
+position:fixed;
+bottom:3%;
+width: 94.5%;
+margin:0;
+padding:0;
+/* margin-top:3.7%;
+	margin-bottom:5% auto;
+	margin-left:4%;
+	margin-right:10% auto; */
+text-align:center;
+font-size: 0.75em;
+height: 33px;}
+/*밖여백 10px auto 0 auto 높이 60px*/
+footer hr{margin: 1px auto;}
+/*너비 900px 밖여백  0 0 20px*/
+footer #copy{background-color:none; font-family: seo; text-align:center;
+font-size: 0.75em; margin: 0px auto; line-height:12px;}
+/*글자체 seo 너비 450px 밖여백 20px 0 0  190px 정렬 left*/
+/* footer #social{width: 150px; margin: auto auto;} */
+/*너비 130px 밖여백 auto auto*/
+/* footer #social_ul {text-align: center;}
+footer #social_ul li{float: left;} */
+/* footer #social a {margin: 0 7px; text-align: center;} */
+/* footer #social img{margin: 0 7px;}밖여백 0 7px */
+
+
+
+
+
